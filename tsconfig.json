@@ -11,5 +11,5 @@
     "noEmit": true,
     "lib": ["ES2020", "DOM"]
   },
-  "include": ["*.ts", "examples/**/*.ts"]
+  "include": ["*.ts", "examples/**/*.ts", "code/example-08-async.ts", "code/example-07-advanced-types.ts", "code/example-06-classes.ts", "code/example-05-generics.ts", "code/example-04-interfaces-and-types.ts", "code/example-03-unions-and-narrowing.ts", "code/example-02-objects-arrays-functions.ts", "code/example-01-basics.ts"]
 }
