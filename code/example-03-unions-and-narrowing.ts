@@ -3,6 +3,7 @@ export {};
 type Id = string | number;
 
 function printId(id: Id): string {
+  // narrowing, without this you can not 
   if (typeof id === "string") {
     return id.toUpperCase();
   }
