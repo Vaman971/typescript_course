@@ -1,0 +1,16 @@
+{
+  "name": "typescript-course",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A beginner-friendly TypeScript learning folder.",
+  "scripts": {
+    "run:file": "tsx",
+    "run:file:watch": "tsx watch",
+    "typecheck": "tsc --noEmit",
+    "typecheck:watch": "tsc --noEmit --watch"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0",
+    "typescript": "^5.8.3"
+  }
+}
